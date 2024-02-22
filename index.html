@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exchange Class</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="registration-form">
+            <h2 class="form-title">Đăng Ký Tài Khoản</h2>
+            <form id="registrationForm">
+                <div class="input-group">
+                    <input type="text" id="fullName" placeholder="Họ và Tên" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Địa chỉ Email" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="Mật Khẩu" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="confirmPassword" placeholder="Xác Nhận Mật Khẩu" required>
+                    <span class="error-message"></span>
+                </div>
+                <button type="submit" class="submit-btn">Đăng Ký</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
